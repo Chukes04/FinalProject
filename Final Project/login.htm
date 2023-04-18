@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<style>
+		body {
+			background-color: #09EDE1;
+		}
+		form {
+			background-color: white;
+			width: 300px;
+			padding: 20px;
+			margin: auto;
+			margin-top: 100px;
+			border-radius: 5px;
+		}
+		input[type="text"], input[type="password"] {
+			padding: 10px;
+			width: 100%;
+			margin-bottom: 20px;
+			border-radius: 5px;
+			border: none;
+		}
+		input[type="submit"] {
+			padding: 10px 20px;
+			background-color: blue;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover {
+			background-color: navy;
+		}
+		h2 {
+			text-align: center;
+			margin-bottom: 30px;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<h2>Login</h2>
+		<label for="username">Username:</label><br>
+		<input type="text" id="username" name="username" placeholder="Enter your username"><br>
+		<label for="password">Password:</label><br>
+		<input type="password" id="password" name="password" placeholder="Enter your password"><br>
+		<input type="submit" value="Login">
+	</form>
+</body>
+</html>
